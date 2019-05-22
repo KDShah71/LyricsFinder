@@ -11,9 +11,9 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="">
-          <div className="nav-wrapper container">
-            <a href="#!" className="brand-logo">
+        <nav className="grey darken-3">
+          <div className="nav-wrapper container ">
+            <a href="#!" className="brand-logo left">
               Logo
             </a>
             <a
