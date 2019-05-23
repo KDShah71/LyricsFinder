@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 // Import Materialize
 import M from "materialize-css";
 
@@ -13,10 +15,10 @@ export default class Navbar extends Component {
       <div>
         <nav className="grey darken-3">
           <div className="nav-wrapper container ">
-            <a href="#!" className="brand-logo left">
-              Logo
-            </a>
-            <a
+            <Link to="/" className="brand-logo  center">
+              LyricsFinder
+            </Link>
+            {/* <a
               href="http://"
               data-target="mobile-demo"
               className="sidenav-trigger right"
@@ -36,7 +38,7 @@ export default class Navbar extends Component {
               <li>
                 <a href="mobile.html">Mobile</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </nav>
 
