@@ -13,7 +13,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="grey darken-3">
+        <nav className="deep-orange darken-4">
           <div className="nav-wrapper container ">
             <Link to="/" className="brand-logo  center">
               LyricsFinder

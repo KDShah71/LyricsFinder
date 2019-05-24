@@ -9,7 +9,7 @@ class Tracks extends Component {
     return (
       <Consumer>
         {value => {
-          console.log(value);
+          // console.log(value);
 
           const { track_list } = value;
 
